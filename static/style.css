@@ -1,0 +1,181 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* ================================================================================================================== */
+/* Navbar CSS */
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0;
+    margin: 0;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav li {
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ================================================================================================================== */
+/* Form CSS */
+
+form {
+    background-color: rgb(87, 124, 161);
+    align-items: center;
+    margin: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ================================================================================================================== */
+/* Inputs CSS */
+
+#enter-city-zipzode {
+    height: 100px;
+    width: 400px;
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#city-submit-button {
+    min-height: 112px;
+    min-width: 300px;
+    font-size: 30px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+/* ================================================================================================================== */
+/* Weather Attributes Main Container CSS */
+#weather-attributes-main-container {
+    display: flex;
+    flex-direction: column; /* Make child elements side by side */
+    flex-wrap: wrap; /* Allow wrapping to the next line if the width is not enough */
+    justify-content: space-between; /* Distribute the divs evenly horizontally */
+}
+
+
+/* ================================================================================================================== */
+/* Location Text CSS */
+
+#location-text {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/* ================================================================================================================== */
+/* Weather Attribute Headers CSS */
+
+.weather-attributes-div {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* ================================================================================================================== */
+/* Weather Attribute Headers CSS */
+
+.weather-attribute-header {
+    font-size: 40px;
+    font-weight: bold;
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* ================================================================================================================== */
+/* Weather Attribute Data CSS */
+
+.weather-attribute-data {
+    font-size: 30px;
+    background-color: white;
+    flex-grow: 1;
+    width: 350px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    border-top: 1px solid black;
+}
+
+/* ================================================================================================================== */
+/* High Temp CSS */
+
+#high-temp {
+    background-image: url(./images/high-temp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ================================================================================================================== */
+/* Low Temp CSS */
+
+#low-temp {
+    background-image: url(./images/low-temp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ================================================================================================================== */
+/* Forecast CSS */
+
+#forecast {
+    background-image: url(./images/forecast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ================================================================================================================== */
+/* Humidity CSS */
+
+#humidity {
+    background-image: url(./images/humidity.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

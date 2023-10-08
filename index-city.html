@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./secrets.js" defer></script>
+    <script src="./main-city.js" defer></script>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body id="weatherBody">
+    <nav>
+        <ul>
+            <li><a href="./index-city.html">Search By City</a></li>
+            <li><a href="./index-zipcode.html">Search By Zipcode</a></li>
+        </ul>
+    </nav>
+    <form action="" id="search-bar">
+        <input type="text" placeholder="Enter City" id="enter-city-zipzode">
+        <input type="submit" value="Get Weather" id="city-submit-button">
+        <div id="location-text"></div>
+        <div id="weather-attributes-main-container">
+            <div class="weather-attributes-div">
+                <div class="weather-attribute-header" id="high-temp">High</div>
+                <div class="weather-attribute-data" id="high-temp-value"></div>
+            </div>
+            <div class="weather-attributes-div">
+                <div class="weather-attribute-header" id="low-temp">Low</div>
+                <div class="weather-attribute-data" id="low-temp-value"></div>
+            </div>
+            <div class="weather-attributes-div">
+                <div class="weather-attribute-header" id="forecast">Forecast</div>
+                <div class="weather-attribute-data" id="forecast-value"></div>
+            </div>
+            <div class="weather-attributes-div">
+                <div class="weather-attribute-header" id="humidity">Humidity</div>
+                <div class="weather-attribute-data" id="humidity-value"></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
